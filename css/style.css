@@ -1,0 +1,256 @@
+
+
+/* CABEZERA DE PAGINA */
+
+.page-nav {
+    margin-top: 10.5%;
+    position:absolute;
+    right: 48%;
+    top: 1px;
+    padding: 10px;
+}
+
+.page-nav input{
+    text-align: center;
+    margin-left: 50%;
+    height: 40px;
+    width: 110;
+    padding:  0 100px;
+    color: #000000;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 1px solid #47e3ff;
+
+}
+
+::placeholder{
+    color: rgba(158, 158, 158, 0.76);
+}
+
+.btn {
+    position: absolute;
+    right: 45%;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background: rgb(8, 255, 243);
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn i {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    line-height: 60px;
+}
+
+.btn:hover{
+    background: #29badf;
+}
+
+nav {
+    width: 100%;
+    height: 105px;
+    background: #34aeff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.363);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    font-size: 25px;
+}   
+
+.nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.enlaces-header {
+    display:flex;
+    margin-left: 65% ;
+    margin-right: 8%;
+    }
+    
+.enlaces-header > a > i {
+    color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 45px;
+    transition: all ease-in-out 0.4s;
+    text-decoration: none;
+    
+    }
+    
+.enlaces-header > a > i:hover {
+    background-color: #74ffe1;
+    border-color: #51e5ff;
+    }
+    
+.logo img {
+    width: 120px;
+    margin-left: 65px;
+    
+    }
+    
+.secciones {
+    font-size: 20px;
+    position: absolute;
+    font-weight: 250;
+    margin-left: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+.secciones a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 60px;
+    padding: 12px;
+    }
+    
+.secciones a:hover {
+    padding:  6px 12px ;
+    background-color: #74ffe1;
+    border: 1px #74ffe1;
+    border-radius: 7%;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: all ease-in-out 0.4s;
+    box-shadow: #47e3ff;
+    }
+
+/* CUERPO DE TRABAJO  */
+
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 15%;
+    margin-left: 27%;
+    margin-bottom: 9%;
+    margin-right: 5%;
+}
+
+
+.caja1 {
+    background-color: #eee;
+    border-radius: 2%;
+    width: 270px;
+    height: 700px;
+    text-align: center;
+    border: 1px solid #eee;
+    float: left;
+    margin-top: 13.6%;
+    margin-left: 5.5%;
+
+}
+
+.product-container {
+    margin: 60px;
+    display: inline-block;
+    text-align: center;
+    font-size: 19.5px;
+    padding: 2px 10px  ;
+    border: 1px groove #d1d1d144;
+    border-radius: 8px;
+    position: inherit;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+
+.product-container h1 {
+    margin-bottom: 25px;
+    margin-left: 10px;
+    color: #011366;
+
+}
+
+.product-container:hover{
+    box-shadow: 0 8px 16px 0 #45616e98;
+    border-radius: 6px;
+}
+
+.product-container img {
+    width: 230px;
+}
+
+.button-add {
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    padding:  9px 11px ;
+    background-color: #45dada;
+    transition-duration: 0.4s;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    background-color: rgb(24, 235, 41);
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.button-add1 {
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    padding:  5px 10px ;
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 8px;
+
+
+}
+
+.button-add1:hover {
+    background-color: rgb(13, 180, 27);
+    color: rgb(0, 0, 0);
+}
+
+
+
+                /* PIE DE PAGINA -- FOOTER */
+
+
+footer{
+    background-color: #747474;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.partFooter img {
+    width: 9%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+
