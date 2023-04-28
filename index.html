@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/2048px-V8_JavaScript_engine_logo_2.svg.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+
+            <section  class="contenedor nav">
+                <div class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/2048px-V8_JavaScript_engine_logo_2.svg.png" alt="logo">
+                </div>
+                <h1>Champ'Store</h1>
+                <div class="secciones">
+                    <a href="#">INCIO</a>
+                    <a href="#">CATEGORIAS</a>
+                    <a href="#">FAVORITOS</a>
+                </div>
+                <div class="enlaces-header">
+                    <a href="#" target="_blank"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                    <a href="#" target="_blank"><i class="fa-regular fa-user"></i></a>
+                </div>
+            </section>
+
+        </nav>
+    </header>
+
+        <div class="page-nav">
+                <input type="text" placeholder="Buscar productos">
+                <div class="btn">
+                    <i class="fa fa-search"></i>
+            </div>
+        </div>
+
+            <div class="caja1">
+                <h4>RANGO DE PRECIOS:</h4>
+                <input type="number" placeholder="MINIMO" id="min">
+                <input type="number" placeholder="MAXIMO" id="max">
+                <br><br><br><br><br>
+                <h4>ENVIOS</h4>
+                <p>GRATIS</p>
+                <input type="checkbox" id="cbox1">
+                <br>
+                <p>PAGO CONTRAENTREGA</p>
+                <input type="checkbox" id="cbox2">
+                <br><br><br><br><br><br>
+                <h4>CONDICION</h4>
+                <p>NUEVO</p>
+                <input type="checkbox" id="cbox2">
+                <br><br>
+                <p>USADO</p>
+                <input type="checkbox" id="cbox2">
+            </div>
+
+        <div class="page-content">
+            <div class="product-container">
+                <h3>Iphone 11 Negro</h3>
+                <img src="https://www.ktronix.com/medias/194252099094-002-1400Wx1400H?context=bWFzdGVyfGltYWdlc3wzMTI0MDl8aW1hZ2UvanBlZ3xpbWFnZXMvaDFiL2hkNy8xMDA1NjYwMzcyOTk1MC5qcGd8MzIzMTlkMWM2OTI5MDVlNTZlZjkxMjQ1MzkyM2MzMmNlZjUyZDYwZjA3ZGVkYTQyZWNkYzhiMzAzZGVkNTQ3ZQ" alt="iphone11">
+                <h2>$2.500.000</h2>
+                <button class="button-add">COMPRAR</button>
+                <button class="button-add">AGREGAR AL CARRITO</button>
+            </div>
+
+            <div class="product-container">
+                <h3>Iphone 13 Negro</h3>
+                <img src="https://www.ktronix.com/medias/194252707166-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3w4NjE3NXxpbWFnZS9qcGVnfGltYWdlcy9oNWIvaDZlLzEwNzkyNzUzNDMwNTU4LmpwZ3xjZDE2MDJkMWFkYWRmNzUyYTcxYTQ5NGExNGI2ODM5ZWJiMDdkYjExZTI5MDFjOGJjNTcwZWQ0ZTMwNjFkMGM5" alt="iphone13">
+                <h2>$3.500.000</h2>
+                <button class="button-add"> COMPRAR</button>
+                <button class="button-add">AGREGAR AL CARRITO</button>
+            </div>
+            
+            <div class="product-container">
+                <h3>Iphone 13 Blanco</h3>
+                <img src="https://www.ktronix.com/medias/194252707432-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3w5NDAyMHxpbWFnZS9qcGVnfGltYWdlcy9oMGMvaGI4LzEwNzkyNzU4NzM4OTc0LmpwZ3wwODdiOTdkNzk0ZDZkYmQxMjFhNjJmZTk0ZTY0MmQ2MDlhZDFlMDg3MWUyNjBjZDNhNTBhOWYzNzkxZTVjMzU4" alt="iphone13wh">
+                <h2>$3.500.000</h2>
+                <button class="button-add">COMPRAR</button>
+                <button class="button-add">AGREGAR AL CARRITO</button>
+            </div>
+            
+            <div class="product-container">
+                <h3>Portatil Dell</h3>
+                <img src="https://www.ktronix.com/medias/196786419003-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3wzMzU3MDZ8aW1hZ2UvanBlZ3xoYzYvaDFhLzEzNDY0ODYwMjI5NjYyLzE5Njc4NjQxOTAwM18wMDFfMTQwMFd4MTQwMEh8MWJhZjA0NDZkZDVkZWUyYjExY2M5Njk1YzY1Nzk0M2ZlNmZjZmRkNmNjZWNmZWNlYTQ4OTJlZWU3M2IwMTgyMg" alt="portatil 1">
+                <h2>$2.400.000</h2>
+                <button class="button-add">COMPRAR</button>
+                <button class="button-add">AGREGAR AL CARRITO</button>
+            </div>
+
+            <div class="product-container">
+                <h3>MacBook Air</h3>
+                <img src="https://www.ktronix.com/medias/194252425862-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3wxOTk1MjF8aW1hZ2UvanBlZ3xpbWFnZXMvaDM2L2g5OS8xMDQ0MTA3NDc2OTk1MC5qcGd8NDVjOGY0YjhiMzgwZGMxMGQ4MDAyNWQ3MDU5NjNjZmQ3ZTk4MjNmYzc0ZDM3Mjg4M2VjZTBhOTk3OTcyNmU0ZQ" alt="Macbook">
+                <h2>$6.000.000</h2>
+                <button class="button-add">COMPRAR</button>
+                <button class="button-add">AGREGAR AL CARRITO</button>
+            </div>
+
+            <div class="product-container">
+                <h3>Portatil Victus HP</h3>
+                <img src="https://www.ktronix.com/medias/196337885110-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3wyMzQ1NjB8aW1hZ2UvanBlZ3xpbWFnZXMvaGZlL2gzMy8xMTY4NTIyMzk1NjUxMC5qcGd8MmFjZTM0MzhkNGYzMTljNWY4MDgzZmM4NTVhM2Q4YzU0Y2E4NTI1NTljMWQ3NGVhZDU1NTk5OWE5ZWZmNTFmMA" alt="PortatilVs">
+                <h2>$3.400.000</h2>
+                <button class="button-add">COMPRAR</button>
+                <button class="button-add">AGREGAR AL CARRITO</button>
+            </div>
+        </div>
+
+    <footer>
+        <div class="partFooter">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/2048px-V8_JavaScript_engine_logo_2.svg.png">
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/fa6a0b2b13.js" crossorigin="anonymous"></script>
+</body>
+</html>
