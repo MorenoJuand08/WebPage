@@ -1,5 +1,4 @@
 
-
 /* CABEZERA DE PAGINA */
 
 .page-nav {
@@ -73,9 +72,8 @@ nav {
 
 .enlaces-header {
     display:flex;
-    margin-left: 65% ;
-    margin-right: 8%;
-    }
+    margin-left: 55%;    
+}
     
 .enlaces-header > a > i {
     color: rgb(0, 0, 0);
@@ -159,7 +157,7 @@ body {
     text-align: center;
     border: 1px solid #eee;
     float: left;
-    margin-top: 13.6%;
+    margin-top: 10%;
     margin-left: 5.5%;
 
 }

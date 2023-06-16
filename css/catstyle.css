@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    height: 105px;
+    background: #34aeff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.363);
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    font-size: 25px;
+}   
+
+.nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.enlaces-header {
+    display:flex;
+    margin-left: 55% ;
+    }
+    
+.enlaces-header > a > i {
+    color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 45px;
+    transition: all ease-in-out 0.4s;
+    text-decoration: none;
+    
+    }
+    
+.enlaces-header > a > i:hover {
+    background-color: #74ffe1;
+    border-color: #51e5ff;
+    }
+    
+.logo img {
+    width: 120px;
+    margin-left: 65px;
+    
+    }
+    
+    .secciones {
+        font-size: 20px;
+        position: absolute;
+        font-weight: 250;
+        margin-left: 40%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+    .secciones a {
+        color: #000000;
+        text-decoration: none;
+        margin-right: 60px;
+        padding: 12px;
+        }
+        
+    .secciones a:hover {
+        padding:  6px 12px ;
+        background-color: #74ffe1;
+        border: 1px #74ffe1;
+        border-radius: 7%;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        transition: all ease-in-out 0.4s;
+        box-shadow: #47e3ff;
+        }
+    
+
+.contenedor.nav h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cat{
+    margin-top:12% ;
+}
+
+/* #1 */
+
+.cat1 {
+    width: 850px;
+    height: 290px;
+    overflow: hidden;
+    border-radius:50px;
+    margin: 80px auto;
+    position: relative;
+    
+}
+
+.cat1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.cat1 h4 {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: #0b1049;
+    border-radius: 35px;
+    padding: 2px 15px 12px 12px;
+    left: 7%;
+}
+
+.cat1 h4:hover {
+    color: deepskyblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.cat1:hover {
+    box-shadow: 1px 2px 20px rgb(60, 151, 226);
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+}
+
+ /* #2 */
+
+.cat2 {
+    width: 850px;
+    height: 290px;
+    overflow: hidden;
+    border-radius:50px;
+    margin: 80px auto;
+    position: relative;
+    
+}
+
+.cat2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.cat2 h4 {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: #bed300;
+    border-radius: 35px;
+    padding: 2px 15px 12px 12px;
+    left: 7%;
+}
+
+.cat2 h4:hover {
+    color: rgb(105, 49, 49);
+    transition: all 0.3s ease-in-out;
+}
+
+.cat2:hover {
+    box-shadow: 1px 2px 20px rgb(201, 197, 0);
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+}
+
+/* #3 */
+
+.cat3 {
+    width: 850px;
+    height: 290px;
+    overflow: hidden;
+    border-radius:50px;
+    margin: 80px auto;
+    position: relative;
+    
+}
+
+.cat3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.cat3 h4 {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: #58cac5;
+    border-radius: 35px;
+    padding: 2px 15px 12px 12px;
+    left: 7%;
+}
+
+.cat3 h4:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.cat3:hover {
+    box-shadow: 1px 2px 20px rgb(133, 200, 255);
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #747474;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.partFooter img {
+    width: 9%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
